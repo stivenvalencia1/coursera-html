@@ -11,12 +11,13 @@
 .container {
     background-color: lightskyblue;
 }
+.container {
+    background-color: lightskyblue;
+    position: absolute;
+}
 .row {
     background-color: maroon;
-}
-
-.row {
-    width: 100%;
+    float: left;
 }
 @media (min-width: 992px) {
     .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6,
@@ -161,10 +162,10 @@ h3 {
     text-align: center;
     float: right;
 }
-div{
+section{
     background-color: lightgray;
 }
-section {
+div {
     padding: 10px;
     clear: right;
 }
