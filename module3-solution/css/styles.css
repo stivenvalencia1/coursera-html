@@ -38,6 +38,7 @@ h1 {
 }
 
 #nav-list{
+  margin: 0;
   background-color: #9f96ec;
 }
 #nav-list a{
